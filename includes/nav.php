@@ -14,7 +14,7 @@ include '../includes/header.php';
             Navbar
         </a>
         <!-- Hamburger button -->
-        <button type="button" data-bs-toggle="colapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- NAV items -->
