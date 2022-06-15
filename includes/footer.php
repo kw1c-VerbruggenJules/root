@@ -4,8 +4,6 @@
 <!-- Footer containing text -->
 <footer>
     <div id="footer">
-        <div id="footerText">
-            &copy<naam>
-        </div>
+        &copyBarberitos
     </div>
 </footer>

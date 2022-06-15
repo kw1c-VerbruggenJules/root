@@ -10,5 +10,203 @@
 }
 
 /*NAV*/
+.navbar {
+  background-color: #03051E;
+  color: #FFFFFF;
+}
+
 /*SLIDER*/
+.news {
+  background-color: #978D58;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.newArticle {
+  margin: 1vw;
+}
+
+.newsTitle {
+  color: #03051E;
+}
+
+.newsImage {
+  width: 100%;
+}
+
+#newsdate {
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-weight: bold;
+}
+
+/*tablet en desktop*/
+@media only screen and (min-device-width: 840px) and (max-device-width: 999999px) {
+  .news {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1%;
+    width: 98%;
+    left: 1vw;
+  }
+  .newsImage {
+    float: left;
+    width: 15vw;
+    margin-right: 1vw;
+  }
+  .newsText {
+    float: left;
+    padding: 1%;
+    width: 80vw;
+    height: 15vw;
+  }
+  #tussen {
+    float: left;
+    height: 100%;
+    width: 1%;
+  }
+  .newsTitle {
+    position: relative;
+  }
+  #newsdate {
+    position: relative;
+    text-align: center;
+    width: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-weight: bold;
+  }
+}
+
+#overOns {
+  position: relative;
+  margin: 1vw;
+  width: 50vw;
+  margin-bottom: 15%;
+}
+
+/*tablet*/
+@media only screen and (min-device-width: 840px) and (max-device-width: 1180px) {
+  #overOns {
+    margin-bottom: 32%;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-device-width: 1200px) and (max-device-width: 999999px) {
+  #overOns {
+    margin-bottom: 20%;
+  }
+}
+
+.overzichtsVeld {
+  width: 100vw;
+  background-color: #978D58;
+}
+
+hr {
+  width: 40.8vw;
+}
+
+.vak {
+  width: 85%;
+  margin-left: 5%;
+  border: 8px solid #000000;
+  background-color: #03051E;
+}
+
+.image {
+  height: 80vw;
+}
+
+.vak > p {
+  font-size: 4vw;
+}
+
+.titel {
+  color: #FFFFFF;
+}
+
+/*tablet*/
+@media only screen and (min-device-width: 840px) and (max-device-width: 999999px) {
+  .overzichtsVeld {
+    position: relative;
+    overflow: hidden;
+    background-color: #978D58;
+    width: 100%;
+    margin-bottom: 2vw;
+  }
+  .vak > p {
+    font-size: 1vw;
+  }
+  .vak {
+    float: left;
+    border: 8px solid #000000;
+    width: 18%;
+    background-color: #03051E;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 4.5%;
+  }
+  .image {
+    position: relative;
+    height: 10%;
+    width: 100%;
+  }
+  .titel {
+    color: #03051E;
+    text-align: center;
+    padding-bottom: 0.5%;
+    color: #FFFFFF;
+  }
+  hr {
+    position: relative;
+    border: none;
+    color: #FFFFFF;
+    height: 8px;
+    left: -1px;
+    top: -5px;
+    width: 13.8vw;
+  }
+  .vakTitel {
+    position: relative;
+    left: 4.5%;
+    color: #03051E;
+  }
+}
+
+form {
+  padding-bottom: 1vw;
+  background-color: #978D58;
+  padding-top: 1vw;
+  margin-bottom: 90vw;
+}
+
+/*tablet*/
+@media only screen and (min-device-width: 840px) and (max-device-width: 1180px) {
+  form {
+    margin-bottom: 23vw;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-device-width: 1200px) and (max-device-width: 999999px) {
+  form {
+    margin-bottom: 10vw;
+  }
+}
+
+#footer {
+  background-color: #03051E;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+/* media query's */
+/*telefoon*/
+/*tablet*/
+/*Desktop*/
 /*# sourceMappingURL=style.css.map */
